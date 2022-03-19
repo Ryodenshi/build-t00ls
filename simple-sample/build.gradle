@@ -9,7 +9,7 @@ task build_custom ( type: Jar) {
           'Implementation-Version': version,
           'Main-Class': 'com.test.Project'
     }
-    baseName = "artur"
+    baseName = "yauheni"
     from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
     with jar
 }
